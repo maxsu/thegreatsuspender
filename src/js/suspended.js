@@ -180,7 +180,7 @@ chrome.tabs.getCurrent(function(tab) {
                 document.getElementById('donateBubble').setAttribute('class', 'fadeIn');
             }
 
-            window.addEventListener('focus', displayPopup);
+            //window.addEventListener('focus', displayPopup);
         }
     };
 }());
